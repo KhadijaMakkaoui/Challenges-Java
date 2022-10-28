@@ -3,6 +3,7 @@ package com.demenagement;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.Collectors;
 
 public class Carton {
     private int id;
@@ -10,7 +11,7 @@ public class Carton {
     private String size;
 
     private List<Enum> objets=new ArrayList<>();
-    private List<Carton> cartons=new ArrayList<>();
+    private static List<Carton> cartons=new ArrayList<>();
 
 
     public Carton(int id, List<Enum> objets) {
@@ -32,13 +33,16 @@ public class Carton {
     public void setCartons(List<Carton> cartons) {
         this.cartons = cartons;
     }
+    public static Carton findCarton(int id){
+        List<Carton> carton=cartons.stream().filter(c->c.id==id).collect(Collectors.toList());
+        return carton.get(0);
+    }
     public static void displayObjets(){
         final int[] i = {1};
         Arrays.stream(Objet.values()).forEach(objet -> {
             System.out.println(i[0] +"-"+objet);
             i[0]++;
         });
-       //System.out.println(Arrays.asList(Objet.values()));
     }
 
 }

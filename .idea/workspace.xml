@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c381440d-0df7-4edd-be5e-7384e1261b63" name="Changes" comment="" />
+    <list default="true" id="c381440d-0df7-4edd-be5e-7384e1261b63" name="Changes" comment="j">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demenagement/Carton.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demenagement/Carton.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/demenagement/Demenagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/demenagement/Demenagement.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +36,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/Youcode/IdeaProjects/Black-Jack-game",
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
@@ -43,8 +48,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1665140086436</updated>
-      <workItem from="1665140087961" duration="4858000" />
+      <workItem from="1665140087961" duration="6417000" />
+      <workItem from="1665759927935" duration="1683000" />
+      <workItem from="1665860660084" duration="79000" />
     </task>
+    <task id="LOCAL-00001" summary="j">
+      <created>1665157240922</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1665157240922</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -60,5 +75,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="j" />
+    <option name="LAST_COMMIT_MESSAGE" value="j" />
   </component>
 </project>

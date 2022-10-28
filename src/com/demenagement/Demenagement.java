@@ -18,6 +18,9 @@ public class Demenagement {
         s.nextLine();
         switch (choix){
             case 1:
+                System.out.println("Donner num du carton: ");
+                int ch=s.nextInt();
+                s.nextLine();
                 Carton.displayObjets();
                 break;
         }
